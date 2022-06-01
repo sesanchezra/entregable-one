@@ -1,0 +1,52 @@
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box{
+  background-color: white;
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.quote-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.quote-box-content{
+  height: 120px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+}
+
+.quote-content-quote{
+  text-align: center;
+}
+
+.quote-content-author{
+  text-align: end;
+}
+
+.btn-change{
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color:white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
