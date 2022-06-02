@@ -8,7 +8,7 @@
 
 .quote-box{
   background-color: white;
-  width: 400px;
+  width: min(400px,80%);
   height: 220px;
   display: flex;
   flex-direction: column;
